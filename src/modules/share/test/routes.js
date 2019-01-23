@@ -198,7 +198,7 @@ describe('Share CRUD routes tests', function () {
     });
 
     xit('should be share delete not use token', function (done) {
- 
+         
         request(app)
             .post('/api/shares')
             .set('Authorization', 'Bearer ' + token)
